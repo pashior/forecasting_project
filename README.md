@@ -8,7 +8,7 @@ The primary goal of this project is to predict the `InfectionRisk` for an upcomi
 
 ## 📂 Dataset
 
-* **Source:** The model is trained on a time-series dataset loaded from a CSV file located at `/content/drive/MyDrive/CLS-Data-export/4.08-7.03.csv`.
+* **Source:** The model is trained on a time-series dataset loaded from a CSV file located at `4.08-7.03.csv`.
 * **Target Variable:** `InfectionRisk`
 * **Features:** All other columns in the dataset after dropping identifiers and metadata.
 * **Preprocessing:**
@@ -57,7 +57,7 @@ random
 
 1.  **Data:** Place your dataset CSV file in the correct path or update the path in the notebook.
 2.  **Training:** Run the Jupyter Notebook cells sequentially to preprocess the data, build the model, and initiate training.
-3.  **Model Checkpoint:** The best-performing model (based on `val_pearson_correlation`) is automatically saved to `/content/drive/MyDrive/Model_CP/model.keras`.
+3.  **Model Checkpoint:** The best-performing model (based on `val_pearson_correlation`) is automatically saved as `model.keras`.
 
 ## 📈 Results
 - Weights & Biases platform was used to log model metrics.  
