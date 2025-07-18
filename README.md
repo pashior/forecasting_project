@@ -71,7 +71,7 @@ random
 
 ## ✍️ Author
 
-* Muhammed Berat Kilic
+* Berat Kilic
 
 ## 📄 License
 
