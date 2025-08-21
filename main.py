@@ -329,7 +329,8 @@ async def predict(unique_id: str, start_date: str = None, end_date: str = None):
 
     # Make predictions
     predictions = model.predict(data)
-    pd.DataFrame(predictions, columns=["risk"]).to_csv(os.path.join(user_dir, "predictions.csv"), index=False)
+    df['risk'] = predictions
+    df.to_csv(os.path.join(user_dir, "predicted_results.csv"), index=False)
     return {"f": feature_columns,
             "df": df.to_dict(orient="records"),
             "latitude": latitude,
