@@ -281,7 +281,7 @@ If you use this work in your research, please cite:
 ```bibtex
 @software{forecasting_project,
   title={Indoor Risk Forecasting API: Predicting Indoor Environmental Risk Using Outdoor Data and Temporal Patterns},
-  author={[Your Name]},
+  author={[Berat Kilic]},
   year={2025},
   url={https://github.com/pashior/forecasting_project}
 }
